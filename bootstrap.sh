@@ -41,3 +41,4 @@ done
 
 cd "$PREFIX/.."
 tar cJf "$WD/deps.txz" local
+ls -al "$WD/deps.txz"
