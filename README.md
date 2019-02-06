@@ -10,6 +10,8 @@ Some of the dependencies you can install from your distribution's packages:
 - libxml-parser-perl
 - libxtst-dev
 - xutils-dev
+- libmount-dev
+- gperf
 
 ### Building
 

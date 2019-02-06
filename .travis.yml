@@ -8,6 +8,7 @@ addons:
     - libxtst-dev
     - xutils-dev
     - libmount-dev
+    - gperf
 script:
 - ./bootstrap.sh manifest.txt
 deploy:

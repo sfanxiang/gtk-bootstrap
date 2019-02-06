@@ -24,6 +24,7 @@ build() {
 	curl -L "$1" > dist.x
 	tar -xf dist.x --strip-components=1
 	rm dist.x
+	[ -f ./configure ] || [ ! -f ./autogen.sh ] || ./autogen.sh
 	./configure --prefix="$PREFIX"
 	make -j2
 	make install
