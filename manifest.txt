@@ -1,4 +1,4 @@
-https://download.gnome.org/sources/glib/2.55/glib-2.55.2.tar.xz
+https://download.gnome.org/sources/glib/2.43/glib-2.43.4.tar.xz
 https://download.savannah.gnu.org/releases/freetype/freetype-2.9.1.tar.gz
 https://dbus.freedesktop.org/releases/dbus/dbus-1.10.0.tar.gz
 https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
@@ -7,9 +7,9 @@ https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.93.tar.b
 https://www.cairographics.org/releases/cairo-1.14.12.tar.xz
 https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.8.tar.bz2
 https://github.com/fribidi/fribidi/releases/download/0.19.7/fribidi-0.19.7.tar.bz2
-https://download.gnome.org/sources/pango/1.42/pango-1.42.4.tar.xz
-https://download.gnome.org/sources/atk/2.18/atk-2.18.0.tar.xz
+https://download.gnome.org/sources/pango/1.36/pango-1.36.8.tar.xz
+https://download.gnome.org/sources/atk/2.15/atk-2.15.4.tar.xz
 https://download.gnome.org/sources/at-spi2-core/2.18/at-spi2-core-2.18.0.tar.xz
 https://download.gnome.org/sources/at-spi2-atk/2.18/at-spi2-atk-2.18.0.tar.xz
 https://download.gnome.org/sources/gdk-pixbuf/2.30/gdk-pixbuf-2.30.8.tar.xz
-https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.5.tar.xz
+https://download.gnome.org/sources/gtk+/3.15/gtk+-3.15.12.tar.xz
