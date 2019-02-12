@@ -1,16 +1,21 @@
+dist: xenial
 addons:
   apt:
     packages:
+    - python3-pip
     - libegl1-mesa-dev
-    - libfreetype6-dev
-    - libpng-dev
     - libxml-parser-perl
     - libxtst-dev
     - xutils-dev
     - libmount-dev
     - gperf
+    - ninja-build
+    - gobject-introspection
+    - libgirepository1.0-dev
 script:
-- ./bootstrap.sh manifest.txt
+    - sudo -H pip3 install --upgrade pip setuptools wheel
+    - sudo -H pip3 install meson
+    - ./bootstrap.sh manifest.txt
 deploy:
   provider: releases
   api_key:
