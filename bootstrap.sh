@@ -13,7 +13,7 @@ export CPPFLAGS="-I$PREFIX/include"
 export LD_LIBRARY_PATH="$PREFIX/lib"
 export LDFLAGS="-I$PREFIX/lib"
 export PATH="$PREFIX/bin:$PATH"
-export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig"
+export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig:$PREFIX/share/pkgconfig"
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:$PREFIX/share"
 
 mkdir -p "$PREFIX"
@@ -40,7 +40,9 @@ build() {
 		make install
 	else #if  [ ! -f ./meson.build ]
 	#then
-		#atk
+		# disable gstreamer in gtk4 for now
+		sed -i "s/option('media', type: 'string', value: 'gstreamer',/option('media', type: 'string', value: 'none',/" meson_options.txt
+
 		meson_build
 	fi
 	cd "$WD"

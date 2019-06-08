@@ -12,6 +12,13 @@ addons:
     - ninja-build
     - gobject-introspection
     - libgirepository1.0-dev
+    - doxygen
+    - xmlto
+    - graphviz
+    - libxi-dev
+    - libxrandr-dev
+    - libcups2-dev
+    - libcolord-dev
 script:
     - sudo -H pip3 install --upgrade pip setuptools wheel
     - sudo -H pip3 install meson
